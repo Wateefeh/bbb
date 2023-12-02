@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .container-fluid {
   padding: 3% 15%;
 }
@@ -127,6 +132,7 @@
 /* Testimonial Section */
 
 .bottom {
+  color: #8f8f8f;
   font-family: "Montserrat-Light", sans-serif;
   padding: 20px;
   line-height: 2;
@@ -151,12 +157,15 @@
 /* Pricing Section*/
 
 .h1-prices {
+  color: #8f8f8f;
   font-size: 18px;
   text-align: center;
   line-height: 2;
 }
 
 .h5-prices {
+  color: #8f8f8f;
+  padding: 10px 0 10px 0;
   font-size: 20px;
   text-align: center;
   line-height: 2;
@@ -195,9 +204,9 @@
 
 /* MEDIA QUERY */
 
-@media (max-width: 1091px) {
+@media (max-width: 1070px) {
   #Prices {
-    padding: 100px;
+    padding: 0;
     text-align: center;
   }
 
@@ -208,7 +217,12 @@
   .header {
     position: static;
     transform: rotate(0);
-    width: 500px;
+    width: 470px;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
   }
 
   .area-p {
@@ -220,5 +234,37 @@
     padding-top: 20px;
     font-size: 18px;
     text-align: center;
+  }
+
+  .h1-prices {
+    color: #8f8f8f;
+    font-size: 18px;
+    text-align: center;
+    line-height: 3;
+  }
+
+  .bottom h2 {
+    font-family: "Montserrat-Bold", sans-serif;
+    font-size: 2rem;
+    line-height: 1.5;
+  }
+
+  .carousel-item p {
+    line-height: 2;
+  }
+
+  .circle {
+    width: 25%;
+    border-radius: 100%;
+    margin: 20px;
+  }
+
+  .h5-prices {
+    color: #8f8f8f;
+    padding: 20px 0 10px 0;
+  }
+
+  .bottom {
+    color: #8f8f8f;
   }
 }
